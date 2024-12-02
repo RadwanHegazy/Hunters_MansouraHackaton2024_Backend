@@ -26,7 +26,8 @@ SECRET_KEY = 'django-insecure-jvtgjd%cq2s7srxob&@jrpl%)zbyhm%ap#v*6ou0e*z(d=u261
 DEBUG = True
 
 ALLOWED_HOSTS = ["*"]
-CSRF_TRUSTED_ORIGINS = ["http://*","https://*.ngrok-free.app","http://localhost:3000"]
+CSRF_TRUSTED_ORIGINS = ["http://*","https://*.ngrok-free.app","http://localhost:3000","https://*.up.railway.app"]
+
 CORS_ALLOW_ALL_ORIGINS = True
 # CORS_ALLOWED_ORIGINS = [
 #     "http://localhost:3000",
