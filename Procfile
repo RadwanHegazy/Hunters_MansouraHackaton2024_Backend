@@ -1,1 +1,1 @@
-web: gunicorn core.core.wsgi --bind 0.0.0.0:$PORT --workers 3 --log-level info
+web: gunicorn core.wsgi:application --bind 0.0.0.0:$PORT --workers 3 --log-level info
