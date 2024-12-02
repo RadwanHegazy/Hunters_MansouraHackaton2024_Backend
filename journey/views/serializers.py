@@ -29,4 +29,5 @@ class JourneySerializer (serializers.ModelSerializer) :
             'riders' : car_riders
         }
 
+        del data['riders']
         return data
