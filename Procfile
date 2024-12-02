@@ -1,1 +1,1 @@
-web: python3 manage.py runserver 0.0.0.0:$PORT
+web: gunicorn core.wsgi --bind 0.0.0.0:$PORT --workers 3 --log-level info
